@@ -1,0 +1,19 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form.formulario {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.flash_alerta2 {
+    background-color: grey;
+    font-size: 50px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-align: center;
+}

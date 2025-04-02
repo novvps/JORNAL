@@ -1,0 +1,14 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    height: 50px;
+}
+
+form {
+    text-align: justify;
+    width: 160px;
+}
+
+.mb-3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+}

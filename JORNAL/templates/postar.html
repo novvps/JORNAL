@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Post</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='/css/postar.css')}}">
+</head>
+<body>
+    <center><h1>Nova Postagem</h1>
+    <form action="/postar">
+    <div class="mb-3">
+        <label for="titulo" class="form-label">Título</label>
+        <input type="text" class="form-control" id="titulo" name="titulo" required>
+    <br>
+    <br>
+        <label for="conteudo" class="form-label">Descrição</label>
+        <input type="text" class="form-control" id="conteudo" name="conteudo" required>
+    <br>
+    <br>
+        <label for="imagem" class="form-label">Imagem</label>
+        <input type="file" class="form-control" id="imagem" name="imagem" required>
+    <br>
+    <br>
+    <br>
+    <button type="submit" class="btn btn-primary">Postar</button>
+    </div>
+    </form>
+</center>
+</body>
+</html>
