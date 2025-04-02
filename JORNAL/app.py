@@ -20,7 +20,6 @@ def postagens():
         return render_template_string("""
             <h2>Olá! Por favor faça seu <a href="{{url_for('login')}}">login</a> ou <a href="{{url_for('cadastro')}}">cadastre-se</a> no site</h2>
         """)
-        return redirect(url_for('home'))
     else:
         return render_template('postagens.html')
 
