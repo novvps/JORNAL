@@ -9,7 +9,7 @@
         <title>SENAI NEWS</title>
         <style>
             body {
-                background-color: cadetblue;
+                background-color: #ffff;
                 background-size: cover;
                 background-attachment: fixed;
                 display: block;
@@ -18,7 +18,7 @@
                 display: flex;
                 align-items: center;
                 padding: 10px;
-                background-color: #6aafb6;
+                background-color: #c2c1c1;
                 border-radius: 8px;
                 margin: 10px 0;
                 max-width: 600px;
@@ -40,10 +40,16 @@
             margin-right: 15px;
             object-fit: cover;
             }
+            .navbar-custom {
+                background-color: #dc3545;
+            }
+            .navbar-brand {
+                color: white;
+            }
         </style>
     </head>
     <body class="p-3 m-0 border-0 bd-example m-0 border-0">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg navbar-custom">
             <div class="container-fluid">
                 <a class="navbar-brand" href="{{url_for('home')}}">SENAI NEWS</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
